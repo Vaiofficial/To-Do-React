@@ -8,7 +8,7 @@ export default function Home() {
 
   const submitHandler = (e) => {
     e.preventDefault();
-    setMainTask([...mainTask, { title, desc }]); //... spread operator to store the previous tasks also. it expand the object.
+    setMainTask([...mainTask, { title, desc }]); //... spread operator to store the previous tasks also. it expand the object. object mai title & desc properties mai new values store hongi.
 
     setTitle(""); //click karne par submit ke baad! input khali ho jyga.
     setDesc("");
